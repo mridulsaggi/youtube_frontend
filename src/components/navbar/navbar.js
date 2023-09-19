@@ -21,7 +21,7 @@ const Navbar = () => {
         <>
         <div className="navbar">
             <div className="icon"> 
-                    <Link to="./"><img src={img1} alt="img " className='img1' /></Link>
+                    <Link to="./"><img src={img1} alt="img " className='img1' /><p>YOUTUBE</p></Link>
                 {/* <span>YOUTUBE</span> */}
             </div>
             <div className="searching">
@@ -30,20 +30,20 @@ const Navbar = () => {
                     <IconButton type='submit' color="red" ><SearchIcon /></IconButton>
                 </form>
             </div>
-            <div className='bttn'>
+            {/* <div className='bttn'>
                 <Link className="log" to="/" >Home</Link>
-                {/* <Link className="log" to="/login" >Login</Link> */}
+                <Link className="log" to="/login" >Login</Link>
                 <Link className="log" to="/" >Login</Link>
-                {/* <Link  className="log" to="/Signup">Signup</Link> */}
+                <Link  className="log" to="/Signup">Signup</Link>
             </div>
             <div>
-                {/* <img onclick="menubtn"className='menubtn' src="https://blog.mozilla.org/futurereleases/files/2019/02/menu-button.jpg" alt="" /> */}
+                <img onclick="menubtn"className='menubtn' src="https://blog.mozilla.org/futurereleases/files/2019/02/menu-button.jpg" alt="" />
                 <div className="choice">
                 <Link className="log" to="/" >Home</Link>
-                {/* <Link className="log choa" to="/login" >Login</Link> */}
+                <Link className="log choa" to="/login" >Login</Link>
                 <Link className="log choa" to="/" >Login</Link>
                 </div>
-            </div>
+            </div> */}
         </div>
         </>
     )

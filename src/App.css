@@ -3,6 +3,7 @@ html,body{
   padding: 0;
   height: 100%;
   width: 100%;
+  /* font-size: 62.5%; */
   background-color: black;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -31,3 +32,4 @@ a{
     width: 10rem;
   } */
 }
+

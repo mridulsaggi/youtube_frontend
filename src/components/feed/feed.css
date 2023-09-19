@@ -77,3 +77,24 @@
         margin: 0.3rem 0.6rem;
     }
 }
+@media(max-width:576px){
+    .spname{
+      font-size: 1.7rem;
+    }
+  }
+@media(max-width:546px){
+    .name{
+      font-size: 1.7rem;
+    }
+    .spname{
+        font-size: 1.5rem;
+    }
+  }
+@media(max-width:446px){
+    .name{
+      font-size: 1.7rem;
+    }
+    .spname{
+        font-size: 1.2rem;
+    }
+  }
