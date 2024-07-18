@@ -3,7 +3,7 @@ import "./navbar.css"
 import { IconButton } from '@mui/material';
 import SearchIcon from '@mui/icons-material/Search';
 import {Link, useNavigate} from "react-router-dom";
-import img1 from "./uicon.png";
+import img1 from "./vsmini.png";
 const Navbar = () => {
     const menubtn=()=>{
 
@@ -21,7 +21,7 @@ const Navbar = () => {
         <>
         <div className="navbar">
             <div className="icon"> 
-                    <Link to="./"><img src={img1} alt="img " className='img1' /><p>YOUTUBE</p></Link>
+                    <Link to="./"><img src={img1} alt="logo " className='img1' /><p>VStream</p></Link>
                 {/* <span>YOUTUBE</span> */}
             </div>
             <div className="searching">

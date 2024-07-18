@@ -2,7 +2,6 @@ import React from 'react'
 import "./feed.css"
 import { Categories, categories } from "../../utils/constants"
 import Videopage from '../videopage/videopage'
-// const Selected = "New";
 
 const Sidebar = ({selectedcategory,setselecetedcategory}) => {
     return (

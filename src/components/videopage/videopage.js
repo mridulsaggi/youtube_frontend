@@ -1,5 +1,6 @@
 import React from 'react'
 import "./videopage.css"
+import "../loaders/loader.css"
 import Videocard from "./videocard"
 import Channelcard from "./channelcard"
 import {Link} from "react-router-dom"
@@ -8,7 +9,7 @@ import Sidebar from '../feed/sidebar'
 const Videopage = ({videos}) => {
   // console.log(videos)
   if(!videos?.length){
-    return "loading"
+    return <span class="loader"></span>
     
   }
     return (

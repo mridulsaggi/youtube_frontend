@@ -26,7 +26,6 @@ const Channelpage = () => {
     const videosData = await Fetchapi(`search?channelId=${id}&part=snippet%2Cid&order=date`);
 
     setvideos(videosData?.items);
-    console.log(video)
   };
   return (
     <div>
